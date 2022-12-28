@@ -22,7 +22,6 @@ yum install maven -y
 ## Update Secret Values and Run
 
 ```bash
----
 kubectl apply -f helm/mysql-secrets.yaml
 ```
 
