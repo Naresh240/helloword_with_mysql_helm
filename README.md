@@ -7,6 +7,7 @@
 2. Install Java
 3. Install Maven
 4. Minikube Setup
+5. Helm Install
 ```
 
 ## Install JAVA-8, GIT and Maven
@@ -18,6 +19,15 @@ yum install maven -y
 ```
 ## kubernetes cluster - minikube
 [minikube setup](https://github.com/Naresh240/kubernetes/blob/main/minikube-setup/README.md)
+
+## Install helm
+
+```bash
+curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
+chmod 700 get_helm.sh
+export PATH=$PATH:/usr/local/bin
+./get_helm.sh
+```
 
 ## Update Secret Values and Run
 
