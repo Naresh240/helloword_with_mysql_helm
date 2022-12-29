@@ -39,7 +39,7 @@ kubectl apply -f helm/mysql-secrets.yaml
 
 ```bash
 helm repo add helm-repo https://charts.bitnami.com/bitnami
-helm install mysql-release helm-repo/mysql --dry-run --debug -f mysql-values.yaml
+helm install mysql-release helm-repo/mysql --dry-run --debug -f helm/mysql/mysql-values.yaml
 helm install mysql-release helm-repo/mysql -f helm/mysql/mysql-values.yaml
 ```
 
